@@ -1,67 +1,253 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-body{
+* {
     font-family: 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
 }
-header{
+
+header {
     background: rgb(5, 118, 122);
-    padding: 5px 15px 0;
+    padding: 20px 15px 0;
 }
 
-header .title{
+header .title {
     color: white;
     font-size: 18px;
 }
-.principal-icon{
+
+.principal-icon {
     font-size: 14px;
     color: white;
     margin-left: 19px;
 }
-.search{
+
+.search {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+
 /*  NAV */
-nav ul{
+
+nav {
+    padding-top: 15px;
+}
+
+nav ul {
     display: flex;
     list-style: none;
     justify-content: space-around;
     padding: 0;
     color: white;
+    margin-top: 20px;
 }
-nav ul li{
+
+nav ul li {
     padding-bottom: 10px;
 }
-.fa-camera{
-    margin-left: -20px;
+
+.fa-camera {
+    margin-left: -10px;
 }
-.chat{
+
+.chat {
     border-bottom: 2px solid white;
+    font-weight: 800;
 }
-/*  CHATS */ 
-.chats{
+
+
+/*  CHATS */
+
+.chats {
     display: flex;
     align-items: center;
+    border-bottom: .2px solid rgb(238, 236, 236);
+    height: 70px;
 }
-.chats-img{
-    margin: 10px;
+
+a {
+    text-decoration: none;
+    color: black;
 }
-.chats-img img{
-    width: 40px;
-    height: 40px;
+
+.chats-img {
+    margin: 0 10px;
+}
+
+.chats-img img {
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
-.chats-container{
-    height: 100px;
+
+.chats-completo-img img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.chats-container {
+    height: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.chats-txt{
+
+.chats-txt {
     display: flex;
     justify-content: space-between;
+    width: 73vw;
+}
+
+.chats-message {
+    width: 75vw;
+}
+
+.chats-txt-name {
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+}
+
+.chats-txt-name2 {
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+.chats-txt-time {
+    color: grey;
+    font-size: 12px;
+}
+
+.icon-view {
+    font-size: 14px;
+    color: rgb(156, 154, 154);
+}
+
+
+/*  CHAT  */
+
+.body-chat {
+    background-image: url(img/fondo-wpp.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.header-chat {
+    display: flex;
     align-items: center;
+    padding: 6px 0;
+    padding-right: 20px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+}
+
+.img-icon-chat {
+    display: flex;
+    align-items: center;
+    margin-left: -10px;
+}
+
+.img-icon-chat img {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.img-icon-chat i {
+    font-size: 18px;
+}
+
+.conversation p {
+    background: rgb(206, 235, 159);
+    padding: 7px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: end;
+    margin-right: -2px;
+}
+
+.chat-write {
+    display: flex;
+}
+
+.chat-icons {
+    position: fixed;
+    right: 15px;
+}
+
+.chat-input {
+    background: white;
+    width: 81vw;
+    margin-left: 4px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    padding-left: 9px;
+    padding-top: 7px;
+    position: fixed;
+    bottom: 5px;
+}
+
+.chat-input i {
+    color: grey;
+    margin: 0 3px;
+}
+
+.chat-input input {
+    border: none;
+    height: 30px;
+    width: 140px;
+}
+
+.chat-input input::placeholder {
+    font-size: 15px;
+}
+
+.fa-microphone {
+    color: white;
+    width: 41px;
+    height: 30px;
+    background: rgb(2, 124, 87);
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 12px;
+    margin-left: 4px;
+    margin-bottom: 5px;
+    position: fixed;
+    right: 5px;
+    bottom: 2px;
+}
+
+.chat-write-container {
+    position: static;
+}
+
+.complete-coversation {
+    overflow-y: scroll;
+}
+
+.conversation {
+    margin: 10px;
+    margin-left: 50px;
+}
+
+.chat-write {
+    background: url(img/fondo-wpp.jpg);
+    height: 110%;
+}
+
+
+/* SECCION SELECCIONADA */
+
+.selection {
+    text-decoration: none;
+    color: rgb(165, 228, 201)!important;
 }
