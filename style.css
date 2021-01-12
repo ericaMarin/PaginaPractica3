@@ -292,7 +292,7 @@ a {
 .vistos {
     color: gray;
     padding: 8px 0 8px 10px;
-    width: 100%;
+    width: 97%;
     background: rgb(249, 249, 255);
 }
 
@@ -304,5 +304,14 @@ a {
 }
 
 .icon-estados {
-    margin-right: 22| px;
+    margin-right: 22px;
+    color: rgb(2, 124, 87);
+}
+
+
+/*  LLAMADAS */
+
+.icon-call {
+    color: rgb(34, 180, 29);
+    margin: 5px;
 }
