@@ -8,7 +8,6 @@
 
 header {
     background: rgb(5, 118, 122);
-    padding: 20px 15px 0;
 }
 
 header .title {
@@ -26,6 +25,7 @@ header .title {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 15px 0;
 }
 
 
@@ -46,15 +46,23 @@ nav ul {
 
 nav ul li {
     padding-bottom: 10px;
+    width: 28vw;
+    text-align: center;
+}
+
+.camera {
+    width: 10vw;
+    text-align: center;
 }
 
 .fa-camera {
-    margin-left: -10px;
+    text-align: center;
 }
 
 .chat {
     border-bottom: 2px solid white;
     font-weight: 800;
+    text-align: center;
 }
 
 
@@ -89,6 +97,7 @@ a {
 
 .chats-container {
     height: 70px;
+    width: 95vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -326,6 +335,7 @@ a {
     display: flex;
     align-items: center;
     border-bottom: .2px solid #f3f3f3;
+    width: 95vw;
 }
 
 .phone-llamadas {
