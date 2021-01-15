@@ -18,10 +18,16 @@ header .title {
 .principal-icon {
     font-size: 14px;
     color: white;
-    margin-left: 19px;
+    margin-right: 11px;
 }
 
-.search {
+.arrow-chat {
+    margin-left: 16px;
+    margin-right: -2px;
+}
+
+.search,
+.search-perfil {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -366,4 +372,172 @@ a {
     bottom: 80px;
     color: rgb(70, 70, 70);
     background: white;
+}
+
+
+/* PERFIL */
+
+.header-perfil {
+    background: url(img/perfil.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 295px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.search-perfil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px 0;
+}
+
+.icon-perfil {
+    color: white;
+    position: fixed;
+}
+
+.icon-perfil2 {
+    right: 20px;
+    top: 20px;
+}
+
+.txt-name-perfil {
+    font-size: 30px;
+    color: white;
+    margin-left: 14px;
+    margin-bottom: 10px;
+}
+
+.archivos {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    border-top: 4px solid rgb(238, 236, 236);
+    box-shadow: 3px 3px 3px #ccc5c5;
+    margin-bottom: 2px;
+}
+
+.archivos-cifra {
+    color: gray;
+    font-size: 13px;
+}
+
+.notificaciones {
+    border-top: 10px solid rgb(238, 236, 236);
+    box-shadow: 3px 3px 3px #ccc5c5;
+    margin-bottom: 2px;
+}
+
+.mensajes-temp {
+    border-top: 10px solid rgb(238, 236, 236);
+}
+
+.icon-notificaciones {
+    color: rgb(144, 144, 144);
+}
+
+.notificaciones-silenc {
+    border-bottom: .2px solid #f3f3f3;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2 {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.txt-section2 {
+    color: gray;
+    font-size: 13px;
+    margin-right: 15px;
+}
+
+.icon-mensajes {
+    color: rgb(2, 102, 72);
+}
+
+.icon-cifra {
+    color: rgb(189, 186, 186);
+    font-size: 11px;
+    margin: 2px 0 0 5px;
+}
+
+.archivos-cifra-container {
+    display: flex;
+}
+
+.date-num-tel-perfil {
+    font-size: 12px;
+    color: grey;
+}
+
+.iconos-num i {
+    color: rgb(2, 102, 72);
+    margin-left: 10px;
+    font-size: 14px;
+    height: 100%;
+}
+
+.iconos-num {
+    margin-top: 8px;
+}
+
+.perfil-num {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-top: .2px solid #f3f3f3;
+    padding: 10px;
+    box-shadow: 3px 3px 3px #ccc5c5;
+    margin-bottom: 2px;
+}
+
+.txt-num-tel-perfil {
+    font-size: 14px;
+    color: rgb(2, 102, 72);
+    margin-bottom: 5px;
+}
+
+.mensajes-temp {
+    box-shadow: 3px 3px 3px #ccc5c5;
+    margin-bottom: 2px;
+}
+
+.info {
+    padding: 10px;
+    border-top: 10px solid rgb(238, 236, 236);
+}
+
+.txt-bloquear {
+    font-size: 19px;
+}
+
+.icon-bloquear {
+    margin-right: 15px;
+}
+
+.bloquear {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: rgb(228, 15, 15);
+    box-shadow: 3px 3px 3px #ccc5c5;
+    margin-bottom: 2px;
+    border-top: 10px solid rgb(238, 236, 236);
+}
+
+.bloquear2 {
+    border-bottom: 15px solid rgb(238, 236, 236);
+    box-shadow: 3px 3px 3px #ccc5c5;
+    margin-bottom: 2px;
 }
