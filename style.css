@@ -2,6 +2,7 @@
 * {
     font-family: 'Roboto', sans-serif;
     padding: 0;
+    box-sizing: border-box;
     margin: 0;
 }
 
@@ -186,7 +187,7 @@ a {
 
 .chat-input {
     background: white;
-    width: 77vw;
+    width: 82vw;
     border-radius: 20px;
     position: fixed;
     display: flex;
@@ -215,7 +216,7 @@ a {
 .fa-microphone {
     color: white;
     width: 37px;
-    height: 25px;
+    height: 35px;
     background: rgb(2, 124, 87);
     border-radius: 50%;
     text-align: center;
@@ -314,4 +315,45 @@ a {
 .icon-call {
     color: rgb(34, 180, 29);
     margin: 5px;
+}
+
+.chats-txt-llamadas {
+    display: flex;
+    flex-direction: column;
+}
+
+.chats-container-llamadas {
+    display: flex;
+    align-items: center;
+    border-bottom: .2px solid #f3f3f3;
+}
+
+.phone-llamadas {
+    margin-left: -25px;
+    color: rgb(2, 124, 87);
+}
+
+.iconos-llamadas1,
+.iconos-llamadas2 {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    box-shadow: 0px 10px 10px rgb(161, 160, 160);
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 50%;
+}
+
+.iconos-llamadas1 {
+    bottom: 20px;
+    color: white;
+    background: rgb(20, 143, 20);
+}
+
+.iconos-llamadas2 {
+    bottom: 80px;
+    color: rgb(70, 70, 70);
+    background: white;
 }
