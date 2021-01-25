@@ -103,10 +103,9 @@ a {
 
 .chats-container {
     height: 70px;
-    width: 95vw;
+    width: 76vw;
     display: flex;
     flex-direction: column;
-    margin-left: -35px;
     align-items: center;
     justify-content: center;
     border-bottom: .2px solid rgb(238, 236, 236);
@@ -541,4 +540,87 @@ a {
     border-bottom: 15px solid rgb(238, 236, 236);
     box-shadow: 3px 3px 3px #ccc5c5;
     margin-bottom: 2px;
+}
+
+
+/* DETALLE LLAMADAS */
+
+.title-detalle-txt {
+    color: white;
+    margin-left: 20px;
+    padding: 8px 0;
+}
+
+.header-detalle {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+.detalle-icon {
+    color: white;
+    margin: 0 7px;
+}
+
+.detalle-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.detalle-container-img img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.detalle-contacto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 15px;
+    border-bottom: .3px solid rgb(231, 231, 231);
+}
+
+.contacto {
+    font-size: 18px;
+}
+
+.estado {
+    color: grey;
+}
+
+.icon-detalle {
+    color: rgb(2, 102, 72);
+    margin-left: 18px;
+}
+
+.fecha-detalle {
+    margin-left: 60px;
+    margin-top: 8px;
+    color: grey;
+}
+
+.icon-txt-detalle {
+    margin: 24px;
+    color: rgb(20, 143, 20);
+    font-size: 20px;
+}
+
+.detalle-txt-llamada-3 {
+    margin-right: 25px;
+}
+
+.container-detalle-txt-llamadas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detalle-txt-llamada {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
